@@ -1,0 +1,96 @@
+Thinking in Go
+Assorted Tips and Tricks in Golang
+11 Aug 2018
+Tags: golang, patterns, tips, tricks
+
+Vagmi Mudumbai
+https://tarkalabs.com/
+@vagmi
+
+* A quick word about Go
+
+* Enums
+
+.code samples/enums/enums.go /START1_OMIT/,/END1_OMIT/
+
+* Enums (continued)
+
+.play -edit samples/enums/enums.go /START2_OMIT/,/END2_OMIT/
+
+
+
+* Receiver methods
+
+.play -edit samples/receiver/receiver.go
+
+* Receiver continued
+
+.play -edit samples/receiver_pointer/receiver_pointer.go
+
+* Receiver null
+
+.play -edit samples/receiver_null/receiver_null.go /START_OMIT/,/END_OMIT/
+
+* Log with file name and caller
+
+.play -edit samples/logger/logger.go /START_OMIT/,/END_OMIT/
+
+* Better errors with stack traces
+
+.play samples/errors/errors.go /START_MAIN_OMIT/,/END_MAIN_OMIT/
+
+* Better errors with stack traces
+
+.code samples/errors/errors.go /START_BE_OMIT/,/END_BE_OMIT/
+
+* Better errors with stack traces
+
+.code samples/errors/errors.go /START_ST_OMIT/,/END_ST_OMIT/
+
+* Compare with Reflection
+
+.play -edit samples/reflection_compare/reflection_compare.go /START_OMIT/,/END_OMIT/
+
+* Access Struct Tags
+
+.play -edit samples/struct-tags/struct-tags.go /START_OMIT/,/END_OMIT/
+
+* Futures - 1
+
+.code samples/channels-future/channels-future.go /START1_OMIT/,/END1_OMIT/
+
+* Futures - 2
+
+.play samples/channels-future/channels-future.go /START_OMIT/,/END_OMIT/
+
+* Python style generators
+
+.play -edit samples/channels-generator/channels-generator.go /START_OMIT/,/END_OMIT/
+
+* Map / Reduce patterns (Generator)
+
+.code samples/map_reduce/map_reduce.go /START_GENERATOR_OMIT/,/END_GENERATOR_OMIT/
+
+* Map / Reduce patterns  (Worker)
+
+.code samples/map_reduce/map_reduce.go /START_WORKER_OMIT/,/END_WORKER_OMIT/
+
+* Map / Reduce patterns  (Reducer)
+
+.code samples/map_reduce/map_reduce.go /START_REDUCE_OMIT/,/END_REDUCE_OMIT/
+
+* Map / Reduce patterns (Controller)
+
+.code samples/map_reduce/map_reduce.go /START_CONTROLLER_OMIT/,/END_CONTROLLER_OMIT/
+.play -edit samples/map_reduce/map_reduce.go /START_MAIN_OMIT/,/END_MAIN_OMIT/
+
+* Map / Reduce patterns (Dynamic Reducer)
+
+.code samples/map_reduce/map_reduce.go /START_REDUCED_OMIT/,/END_REDUCED_OMIT/
+
+* Map / Reduce patterns (DynamicController)
+
+.code samples/map_reduce/map_reduce.go /START_DYNCON_OMIT/,/END_DYNCON_OMIT/
+.play -edit samples/map_reduce/map_reduce.go /START_MAIN_OMIT/,/END_MAIN_OMIT/
+
+
