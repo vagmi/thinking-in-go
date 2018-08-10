@@ -6,8 +6,11 @@ Tags: golang, patterns, tips, tricks
 Vagmi Mudumbai
 https://tarkalabs.com/
 @vagmi
+@tarkalabs
 
 * A quick word about Go
+
+.image thinking-gopher.png _ 300
 
 * Enums
 
@@ -16,7 +19,6 @@ https://tarkalabs.com/
 * Enums (continued)
 
 .play -edit samples/enums/enums.go /START2_OMIT/,/END2_OMIT/
-
 
 
 * Receiver methods
