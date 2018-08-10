@@ -12,6 +12,10 @@ https://tarkalabs.com/
 
 .image thinking-gopher.png _ 300
 
+* 
+
+.html amazed.html
+
 * Enums
 
 .code samples/enums/enums.go /START1_OMIT/,/END1_OMIT/
@@ -56,6 +60,10 @@ https://tarkalabs.com/
 * Access Struct Tags
 
 .play -edit samples/struct-tags/struct-tags.go /START_OMIT/,/END_OMIT/
+
+* Concurrency Patterns
+
+.html concurrency.html
 
 * Futures - 1
 
